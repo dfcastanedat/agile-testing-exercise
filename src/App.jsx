@@ -10,6 +10,7 @@ const App = ({ onSubmit }) => {
       onSubmit={(e) => {
         onSubmit(e);
         e.preventDefault();
+        // Preventing big warning in testing
       }}
     >
       <label htmlFor="input">First Name</label>
